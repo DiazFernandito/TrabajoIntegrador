@@ -1,0 +1,123 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Ubuntu:wght@500&family=Urbanist:wght@500&display=swap');
+
+/* Clase contenedora de tarjetas de locales */
+.claseLocal {
+    margin-top: 0px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: blueviolet;
+}
+
+.claseLocal h5 {
+    color: blueviolet;
+}
+.claseLocal a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+/* Clase contenedora de tarjetas de locales */
+.claseServ {
+    margin-top: 0px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: blueviolet;
+}
+.claseServ h5 {
+    color: blueviolet;
+    font-size: 25px;
+}
+
+/* Clase contenedora de tarjetas de Ofertas */
+.claseOfer {
+    margin-top: 0px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: blueviolet;
+    color: white;
+}
+.claseOfer h2 {
+    color: yellow;
+}
+
+/* Clase contenedora de tarjetas de Marcas */
+.claseMarc {
+    margin-top: 0px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: blueviolet;
+    color: white;
+}
+.claseMarc h2 {
+    color: yellow;
+}
+.claseMarc p {
+    margin-bottom: 60px;
+}
+
+/* Clase contenedora de tarjetas de Marcas */
+.clasePie {
+    margin-top: 0px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: blueviolet;
+    color: white;
+}
+.clasePie a {
+    color: yellow;
+}
+.clasePie p {
+    color: yellow;
+}
+.clasePie h4 {
+    color: yellow;
+}
+
+/* Clase contenedora de formulario de contrato */
+.claseConta {
+    background-color: rgb(249, 249, 147);
+}
+
+/* Estilos personalizados para los Item de la Navbar*/
+.miItem {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Estilos personalizados para los textos del los elementos del carrusel */
+.carousel-caption h5 {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 0px;
+}
+.carousel-caption p {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+/* Media query para el comportamiento de la altura del carrousel */
+@media screen and (min-width: 1280px){
+    .carousel-item {
+        height: 100vh;
+    }
+}
+
