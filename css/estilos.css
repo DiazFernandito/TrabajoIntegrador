@@ -1,6 +1,4 @@
 /* Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Ubuntu:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Ubuntu:wght@500&family=Urbanist:wght@500&display=swap');
 
 /* Clase contenedora de tarjetas de locales */
@@ -46,7 +44,18 @@
     color: white;
 }
 .claseOfer h2 {
-    color: yellow;
+    color: red ;
+}
+.w3-third ul {
+    background-color: rgb(252, 252, 176);
+    color: rgb(101, 44, 155);
+}
+.w3-third p {
+    color: black;
+    font-weight: bold;
+}
+.w3-border {
+    border-radius: 2%;
 }
 
 /* Clase contenedora de tarjetas de Marcas */
@@ -86,7 +95,7 @@
     color: yellow;
 }
 
-/* Clase contenedora de formulario de contrato */
+/* Clase contenedora de formulario de contacto */
 .claseConta {
     background-color: rgb(249, 249, 147);
 }
