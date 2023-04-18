@@ -121,3 +121,61 @@
     }
 }
 
+/* Personalización del Pie de Página */
+.clasePie {
+    padding-left: 200px;
+    background-color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:yellow;
+}
+.clasePie h4 {
+    padding-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.clasePie p {
+    margin-bottom: 5px;
+}
+.clasePie a {
+    color:white;
+    text-decoration: none;
+}
+.clasePie li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+/* Personalización del Botón Acordeón de Quiénes somos */
+.claseAcor {
+    margin-right: 140px;
+}
+.accordion {
+    --bs-accordion-color: yellow;
+    --bs-accordion-bg: blueviolet;
+    --bs-accordion-btn-color: yellow;
+    --bs-accordion-btn-bg: blueviolet;
+    --bs-accordion-active-bg: blueviolet;
+    --bs-accordion-btn-active-color: yellow;
+    --bs-accordion-btn-focus-border-color: blueviolet;
+    --bs-accordion-btn-focus-box-shadow: blueviolet;
+    --bs-accordion-active-color: yellow;
+    --bs-accordion-active-bg: blueviolet;
+}
+.accordion-button {
+    padding-top: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.accordion-body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+/* Personalización del Powered by */
+.clasePower h4 {
+    margin-top: 40px;
+    padding-bottom: 0px;
+}
+.clasePower a {
+    text-decoration: underline;
+}

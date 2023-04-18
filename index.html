@@ -376,7 +376,7 @@
             </div>
         </div>
 
-        <!-- Contacto (w3Schools)-->
+        <!-- Contacto (w3Schools + Bootstrap)-->
         <div id="contacto" class="w3-container w3-padding-64 w3-theme-l5 claseConta">
             <div class="w3-row">
                 <!-- Datos de contacto -->
@@ -414,47 +414,57 @@
 
     </main>
 
-    <!-- Pie del documento - Redes Sociales - Powered (w3Schools)-->
-    <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center clasePie">
-        <h4>Síganos</h4>
-        <a class="w3-button w3-large w3-white" href="https://es-la.facebook.com/login.php" title="Facebook" target="_blank"><img src="pictures/facebook-3-24.ico"></a>
-        <a class="w3-button w3-large w3-white" href="https://twitter.com/login/" title="Twitter" target="_blank"><img src="pictures/twitter-3-24.ico"></a>
-        <a class="w3-button w3-large w3-white" href="https://www.instagram.com/accounts/login/" title="Instragram" target="_blank"><img src="pictures/instagram-24.ico"></a>
-        <a class="w3-button w3-large w3-white" href="https://www.linkedin.com/login?fromSignIn=true" title="Linkedin" target="_blank"><img src="pictures/linkedin-6-24.ico"></a>
-            <!-- El siguiente link carga en una nueva pestaña la página 'index_team.html'-->
-        <p>Powered by&nbsp; 
-            <a href="index_team.html" target="_blank">Grupo 7 - Comisión 184</a>
-        </p>
+    <!-- Contenedor al pie (w3Schools + Bootstrap)-->
+    <footer>
+        <!-- Redes + Quienes somos + Mapa del Sitio-->
+        <div class="w3-container w3-padding-64 w3-theme-l5 clasePie">
+            <div class="w3-row">
+                <!-- Redes Sociales -->
+                <div class="w3-col m4">
+                    <h4>Síganos</h4>
+                    <a class="w3-button w3-large w3-white" href="https://es-la.facebook.com/login.php" title="Facebook" target="_blank"><img src="pictures/facebook-3-24.ico"></a>
+                    <a class="w3-button w3-large w3-white" href="https://twitter.com/login/" title="Twitter" target="_blank"><img src="pictures/twitter-3-24.ico"></a>
+                    <a class="w3-button w3-large w3-white" href="https://www.instagram.com/accounts/login/" title="Instragram" target="_blank"><img src="pictures/instagram-24.ico"></a>
+                    <a class="w3-button w3-large w3-white" href="https://www.linkedin.com/login?fromSignIn=true" title="Linkedin" target="_blank"><img src="pictures/linkedin-6-24.ico"></a>
+                    <div class="clasePower">
+                        <h4>Powered by</h4>
+                        <a href="index_team.html" target="_blank">Grupo 7 - Comisión 184</a>
+                        <p style="margin-top: 10px;font-size: 12px;">&#169Derechos Reservados</p>
+                    </div>
+                </div>
+                <!-- Quiénes somos ? (w3Schools + Bootstrap) -->
+                <div class="w3-col m4">
+                    <div class="claseAcor">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Quiénes somos ?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">El Colibrí SRL, fundada en 1950.<br> Domicilio: San Martín 150, de nuestra ciudad. <br> CUIT 22-33333333-4, Iva Responsable Inscripto</div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Mapa del sitio (w3Schools)-->
+                <div class="w3-col m4">
+                    <h4>Mapa del sitio</h4>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#locales">Sucursales</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#ofertas">Ofertas</a></li>
+                        <li><a href="#marcas">Marcas</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="index_form.html">Reclamos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
-
-    <!-- Efecto scroll suave -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-    $(document).ready(function(){
-      // Add smooth scrolling to all links
-      $("a").on('click', function(event) {
-
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-          // Prevent default anchor click behavior
-          event.preventDefault();
-
-          // Store hash
-          var hash = this.hash;
-
-          // Using jQuery's animate() method to add smooth page scroll
-          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 500, function(){
-
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
-          });
-        } // End if
-      });
-    });
-    </script>
 
 </body>
 </html>
